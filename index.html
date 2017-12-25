@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>页面标题</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/font.css">
+    <!-- <link rel="stylesheet/less" href="less/index.less"> -->
+    <link rel="stylesheet" href="less/index.css">
+    <!-- <script src="lib/less/less.js"></script> -->
+</head>
+
+<body>
+    <!--  头部区域 -->
+    <header id="header">
+        <div class="topbar hidden-xs hidden-sm" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <a href="#" class="mobile-link"><i class="icon-mobilephone"></i> 手机微金所 <i class="glyphicon glyphicon-chevron-down"></i> <img src="img/c_06.jpg" alt=""></a>
+                    </div>
+                    <div class="col-md-5 text-center"> <i class="icon-telephone"></i> 4006-89-4006（服务时间：9:00-21:00）
+                    </div>
+                    <div class="col-md-2 text-center"><a href="#">常见问题</a> <a href="#">财富登录</a></div>
+                    <div class="col-md-3 text-center">
+                        <a href="" class="btn btn-danger btn-sm">免费注册</a>
+                        <a href="" class="btn btn-link" data-toggle="modal" data-target="#myModal">登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <i class="icon-icon"></i>
+                        <i class="icon-logo"></i>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">我要投资 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">我要借款</a></li>
+                        <li><a href="#">平台介绍</a></li>
+                        <li><a href="#">新手专区</a></li>
+                        <li><a href="#">最新动态</a></li>
+                        <li><a href="#">微论坛</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right hidden-sm">
+                        <li><a href="#">个人中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /头部区域 -->
+    <!--  广告轮播 -->
+    <section id="slide">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- 点标记 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播图的轮播项 -->
+            <div class="carousel-inner" role="listbox">
+                <!-- item是轮播图的每一项 -->
+                <!-- active是当前正在显示的轮播图 有且只能有一个 -->
+                <div class="item active" data-large-image="img/slide_01_2000x410.jpg" data-small-image="img/slide_01_640x340.jpg">
+                    <!--   <a href="#" class="pcImg hidden-xs" style="background-image:url('img/slide_01_2000x410.jpg')"></a>
+                <a href="#" class="mobileImg hidden-sm hidden-md hidden-lg">
+                    <img src="img/slide_01_640x340.jpg" alt="">
+                </a> -->
+                </div>
+                <div class="item" data-large-image="img/slide_02_2000x410.jpg" data-small-image="img/slide_02_640x340.jpg">
+                    <!-- <a href="#" class="pcImg hidden-xs" style="background-image:url('img/slide_02_2000x410.jpg')"></a>
+                <a href="#" class="mobileImg hidden-sm hidden-md hidden-lg">
+                    <img src="img/slide_01_640x340.jpg" alt="">
+                </a> -->
+                </div>
+                <div class="item" data-large-image="img/slide_03_2000x410.jpg" data-small-image="img/slide_03_640x340.jpg">
+                    <a href="#" class="pcImg hidden-xs" style="background-image:url('img/slide_03_2000x410.jpg')"></a>
+                    <a href="#" class="mobileImg hidden-sm hidden-md hidden-lg">
+                        <img src="img/slide_01_640x340.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item" data-large-image="img/slide_04_2000x410.jpg" data-small-image="img/slide_04_640x340.jpg">
+                    <!--  <a href="#" class="pcImg hidden-xs" style="background-image:url('img/slide_04_2000x410.jpg')"></a>
+                <a href="#" class="mobileImg hidden-sm hidden-md hidden-lg">
+                    <img src="img/slide_01_640x340.jpg" alt="">
+                </a> -->
+                </div>
+            </div>
+            <!-- 控制器 控制上一张和下一张 -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- /广告轮播 -->
+    <!-- 特色介绍 -->
+    <section id="features" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="media">
+                        <a href="#">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media">
+                        <a href="#">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media">
+                        <a href="#">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media">
+                        <a href="#">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media">
+                        <a href="#">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media">
+                        <a href="#">
+                            <div class="media-left">
+                                <i class="icon-meiyuan"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全程保障财产安全</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /特色介绍 -->
+    <!--  立即预约 -->
+    <section id="booking" class="hidden-xs">
+        <div class="container">
+            <div class="pull-left">
+                <i class="icon-naozhong"></i>现在有<span class="text-danger">458</span>人在排队，累计预约交易成功<span class="text-danger">7409</span>次。 什么是预约投标？ <a href="#" class="text-danger">立即预约</a>
+            </div>
+            <div class="pull-right hidden-sm">
+                <a href="#"> <i class="icon-video"></i>微金所企业宣传片</a>
+            </div>
+        </div>
+    </section>
+    <!-- /立即预约 -->
+    <!--  产品介绍 -->
+    <section id="products">
+        <div class="container">
+            <div class="ul-wapper">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#product1" data-target="#product1" aria-controls="product1" role="tab" data-toggle="tab">特别推荐</a></li>
+                    <li role="presentation"><a href="#product2" aria-controls="product2" role="tab" data-toggle="tab">微投资</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="product3" role="tab" data-toggle="tab">微小宝</a></li>
+                    <li role="presentation"><a href="#product4" aria-controls="product4" role="tab" data-toggle="tab">微消费</a></li>
+                    <li role="presentation"><a href="#product5" aria-controls="product5" role="tab" data-toggle="tab">微增利</a></li>
+                    <li role="presentation"><a href="#product6" aria-controls="product6" role="tab" data-toggle="tab">微金宝</a></li>
+                    <li role="presentation"><a href="#product7" aria-controls="product7" role="tab" data-toggle="tab">微转让</a></li>
+                </ul>
+            </div>
+            <!-- 标签页的内容 -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="product1">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="productBox active">
+                                <div class="product-left">
+                                    <h4>新手体验标008期</h4>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年率利</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="productBox">
+                                <div class="product-left">
+                                    <h4>新手体验标008期</h4>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-right">
+                                    <p class="tooltips">
+                                        <a data-toggle="tooltip" data-placement="top" title="北京市">京</a>
+                                        <a data-toggle="tooltip" data-placement="top" title="实名认证">实</a>
+                                    </p>
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年率利</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="productBox">
+                                <div class="product-left">
+                                    <h4>新手体验标008期</h4>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年率利</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="productBox">
+                                <div class="product-left">
+                                    <h4>新手体验标008期</h4>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年率利</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="productBox">
+                                <div class="product-left">
+                                    <h4>新手体验标008期</h4>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年率利</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="productBox">
+                                <div class="product-left">
+                                    <h4>新手体验标008期</h4>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p>起步价</p>
+                                            <p><strong>1000.00</strong><sub>万</sub></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-right">
+                                    <p><strong>8</strong><sub>%</sub></p>
+                                    <p>年率利</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="product2">2</div>
+                <div role="tabpanel" class="tab-pane" id="product3">3</div>
+                <div role="tabpanel" class="tab-pane" id="product4">4</div>
+                <div role="tabpanel" class="tab-pane" id="product5">4</div>
+                <div role="tabpanel" class="tab-pane" id="product6">4</div>
+                <div role="tabpanel" class="tab-pane" id="product7">4</div>
+            </div>
+        </div>
+    </section>
+    <!-- /产品介绍 -->
+    <!--  新闻资讯 -->
+    <section id="news">
+        <div class="container">
+            <div class="col-md-2 col-md-offset-2">
+                <h4>全部新闻</h4>
+            </div>
+            <div class="col-md-1">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#news01" aria-controls="news01" role="tab" data-toggle="tab"><i class="icon-news01"></i></a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="news02" role="tab" data-toggle="tab"><i class="icon-news02"></i></a></li>
+                    <li role="presentation"><a href="#news03" aria-controls="news03" role="tab" data-toggle="tab"><i class="icon-news03"></i></a></li>
+                    <li role="presentation"><a href="#news04" aria-controls="news04" role="tab" data-toggle="tab"><i class="icon-news04"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-7">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active fade in" id="news01">
+                        <ul>
+                            <li>【微还款】一周还款公告2017年7月10日-2017年7月16日</li>
+                            <li>【微还款】一周还款公告2017年7月10日-2017年7月16日</li>
+                            <li>【微还款】一周还款公告2017年7月10日-2017年7月16日</li>
+                            <li>【微还款】一周还款公告2017年7月10日-2017年7月16日</li>
+                            <li>【微还款】一周还款公告2017年7月10日-2017年7月16日</li>
+                            <li>【微还款】一周还款公告2017年7月10日-2017年7月16日</li>
+                            <li>【微还款】一周还款公告2017年7月10日-2017年7月16日</li>
+                            <li>【微还款】一周还款公告2017年7月10日-2017年7月16日</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="news02">...</div>
+                    <div role="tabpanel" class="tab-pane fade" id="news03">...</div>
+                    <div role="tabpanel" class="tab-pane fade" id="news04">...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /新闻资讯 -->
+    <!--  合作伙伴 -->
+    <section id="partner">
+        <div class="container">
+            <h3>合作伙伴</h3>
+            <ul>
+                <li><a href="#"><i class="icon-partner1"></i></a></li>
+                <li><a href="#"><i class="icon-partner2"></i></a></li>
+                <li><a href="#"><i class="icon-partner3"></i></a></li>
+                <li><a href="#"><i class="icon-partner4"></i></a></li>
+                <li><a href="#"><i class="icon-partner5"></i></a></li>
+                <li><a href="#"><i class="icon-partner6"></i></a></li>
+                <li><a href="#"><i class="icon-partner7"></i></a></li>
+                <li><a href="#"><i class="icon-partner8"></i></a></li>
+                <li><a href="#"><i class="icon-partner9"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- /合作伙伴 -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">Sign in</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
